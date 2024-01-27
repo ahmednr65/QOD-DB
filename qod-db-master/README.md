@@ -5,6 +5,6 @@ Quote of the Day database
 This deployment opens up database access for MariaDB on port `3306`. 
 ### Notes
 * Works with redhat mariadb docker image
-* Automatically creates QOD db and populates it with quotes, authors and genres tables including the data
+* Creates QOD db and populates it with quotes, authors and genres tables including the data
   
 
