@@ -24,7 +24,7 @@ CREATE TABLE quotes (
   FOREIGN KEY (author_id) REFERENCES authors(author_id)
 );
 
-CREATE TABLE newquotes2 (
+CREATE TABLE newquotes3 (
   quote_id INT NOT NULL AUTO_INCREMENT, 
   genre_id INT NOT NULL,
   author_id INT NOT NULL,
